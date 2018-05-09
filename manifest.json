@@ -1,0 +1,23 @@
+{
+  "name": "WikiJam",
+  "description": "A browser extension that provides profiles for wikipedia pages and contributors",
+  "version": "1.0",
+  "permissions": [
+    "activeTab", "declarativeContent", "storage", "tabs"
+    ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+      "default_title": "Set this page's color.",
+       "default_icon": {
+      "16": "images/icon.png",
+      "32": "images/icon.png",
+      "64": "images/icon.png",
+      "128": "images/icon.png"
+    },
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
