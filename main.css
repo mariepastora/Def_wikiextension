@@ -99,6 +99,7 @@
     font-size: 1.1em;
     background-color: #F8F9FA;
     word-wrap: break-word;
+    word-break:break-all;
     }
 
     table, th, td {
@@ -158,8 +159,8 @@
     }
 
 
-            div#load_screen{
-      background: #F6F6F6;
+      div#load_screen{
+      background: white;
       opacity: 1;
       position: fixed ;
       z-index: 10;
@@ -178,7 +179,7 @@
     }
 
     #loading-gif{
-      margin-top:-400px;
-      margin-left:-95px;
+      margin-top:-200px;
+      margin-left:-50px;
 
     }
